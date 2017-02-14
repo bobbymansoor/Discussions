@@ -1,0 +1,27 @@
+﻿<div *ngIf="discussion">
+  <h2>{{discussion.observerName}} discussion with {{discussion.colleagueName}}!</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">Colleague Name:</label>
+      <input type="text" [(ngModel)]="discussion.colleagueName" class="form-control" name="name">
+    </div>
+    <div class="form-group">
+      <label for="date">Date of Discussion:</label>
+      <input type="text" [(ngModel)]="discussion.dateOfDiscussion" class="form-control" name="date">
+    </div>
+    <div class="form-group">
+      <label for="location">Location:</label>
+      <input type="text" [(ngModel)]="discussion.location" class="form-control" name="location">
+    </div>
+    <div class="form-group">
+      <label for="subject">Subject:</label>
+      <input type="text" [(ngModel)]="discussion.subject" class="form-control" name="subject">
+    </div>
+    <div class="form-group">
+      <label for="outcome">Outcomes:</label>
+      <input type="text" [(ngModel)]="discussion.outcomes" class="form-control" name="outcome">
+    </div>
+  </form>
+  <button type="button" (click)="goBack()" class="btn btn-primary">Back</button>
+  <button type="button" (click)="goSave(discussion)" class="btn btn-primary">Save</button>
+</div>

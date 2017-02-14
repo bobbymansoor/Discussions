@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGSMJuhgfLUqlEEeb7gQyhwAAAAACAAAAAAAQZgAAAAEAACAAAAAof2e7DtN2VBfEw+PjLr/6IG/1fBx+kT70SG1zpXx0bwAAAAAOgAAAAAIAACAAAABwKWa8YIoOCYGnWKAVtbN6JFRRG+0VWmcoOOK7lcWZh4AAAAD92gTlFIAbcs3m82iT36mhCd+ZTbKoowBgoAzd04ZqBLD1LzOm+Xvz1Tatn1edphxNjIR/OxRZxXPTQ68qbl1ZovXRK05zeTyoHEYNCnW9xjo2PdBoIxfZIzeMsDyviZco2HLNt2ZNoudQNhrmmbjnU9D5xLg352ClA+3KBePCxUAAAAA6Aic6DmbM2cepsHFMd18eyF06hnvKILovwrDkoEuZ+kwTsuwv7EekgjT+ABMWAilHCjq1q8iPtEN0G90K3gBM</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DiscussionsConnection">
+      <Value>Server=tcp:bobby-work.database.windows.net,1433;Initial Catalog=DiscussionDB;Persist Security Info=False;User ID=bobby;Password=Penfloor987;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

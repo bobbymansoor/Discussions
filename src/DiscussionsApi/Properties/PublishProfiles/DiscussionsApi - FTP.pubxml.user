@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGSMJuhgfLUqlEEeb7gQyhwAAAAACAAAAAAAQZgAAAAEAACAAAAA52m4v83Mj7SJ2FfLQeEBnNwf9KZYbccPyOoVSGKGBSgAAAAAOgAAAAAIAACAAAADuExsCbTjNeqUaH31Y0fJb1BvMI31+U/Cj9AGVRDArOYAAAAAsnnFnxBs0/WemUMBWGAPZDHd3FkwnIC/CIkjhPi85sLp20zfH9LR/EA0dTkKcLu89zhfgOrmeTbZrEzAaeSrACJQa9DjPhMNgiR4fZAQEJBOjgWU2rGSKt/WRgsXPSbFfNcEHcXNjc9L2vtSojl8/HUHugOLD6xFunRG2+8wzLUAAAAA0b7ofe3e378BPc56I7Ojk9zX8ADn5Qm7jXsxg6Iz3Tt27jpGUYmYCPCKMDzFIs2OhJbDlbUk7l+l2J17vM1DC</EncryptedPassword>
+    <_PublishTargetUrl>C:\Bobby\Discussions</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Controllers/AuthorizationController.cs">
+      <publishTime>02/13/2017 21:21:46</publishTime>
+    </File>
+    <File Include="Controllers/DiscussionsController.cs">
+      <publishTime>02/13/2017 21:21:58</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

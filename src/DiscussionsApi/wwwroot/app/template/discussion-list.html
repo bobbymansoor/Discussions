@@ -1,0 +1,32 @@
+
+<br /><br />
+Click on a discussion to view more detail
+<br /><br />
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Observer Name</th>
+      <th>Colleague Name</th>
+      <th>Subject</th>
+      <th>Date Of Discussion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let discussion of discussions"
+      [class.selected]="discussion === selectedDiscussion"
+      (click)="onSelect(discussion)">
+      <th scope="row">{{discussion.id}}</th>
+      <td>{{discussion.observerName}}</td>
+      <td>{{discussion.colleagueName}}</td>
+      <td>{{discussion.subject}}</td>
+      <td>{{discussion.dateOfDiscussion}}</td>
+      <td>
+        <a class="blue-text"><i class="fa fa-user"></i></a>
+        <a class="teal-text"><i class="fa fa-pencil"></i></a>
+        <a class="red-text"><i class="fa fa-times"></i></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!--<my-discussion-detail [discussion]="selectedDiscussion"></my-discussion-detail>-->
